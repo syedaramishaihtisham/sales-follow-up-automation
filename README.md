@@ -224,48 +224,70 @@ The error handler records:
 * Status
 
 This provides an audit trail for workflow failures.
-
+---
 ## 📸 Screenshots
 
 ### 1. Complete Workflow
 
-![Complete Workflow](screenshots/workflow.png)
+![Complete Workflow](./screenshots/workflow.png)
 
-### 2. Google Sheets
+### 2. Sales Follow-ups
 
-![Google Sheets](screenshots/google-sheets.png)
+![Sales Follow-ups](./screenshots/sales-follow-ups.png)
 
-### 3. Gmail Reminders
+### 3. Upcoming Follow-up Email
 
-![Gmail Reminders](screenshots/gmail-reminders.png)
+![Upcoming Email](./screenshots/upcoming-email.png)
 
-### 4. Asana Tasks
+### 4. Due Today Email
 
-![Asana Tasks](screenshots/asana-tasks.png)
+![Due Today Email](./screenshots/due-today-email.png)
 
-### 5. Follow-up Logs
+### 5. Overdue Follow-up Email
 
-![Follow-up Logs](screenshots/follow-up-logs.png)
+![Overdue Email](./screenshots/overdue-email.png)
 
-### 6. Error Logs
+### 6. Missing Date Email
 
-![Error Logs](screenshots/error-logs.png)
+![Missing Date Email](./screenshots/missing-date-email.png)
+
+### 7. Asana Task
+
+![Asana Task](./screenshots/asana-task.png)
+
+### 8. Follow-up Logs
+
+![Follow-up Logs](./screenshots/follow-up-logs.png)
+
+### 9. Error Handler Workflow
+
+![Error Handler Workflow](./screenshots/error-handler-workflow.png)
+
+### 10. Error Log Sheet
+
+![Error Logs](./screenshots/error-logs.png)
+
+---
 
 ## 📁 Project Structure
 
 ```text
-sales-follow-up-automation/
+sales-follow-up-automation
 │
-├── workflows/
+├── workflows
 │   ├── sales-follow-up-automation.json
 │   └── sales-follow-up-error-handler.json
 │
-├── screenshots/
+├── screenshots
 │   ├── workflow.png
-│   ├── google-sheets.png
-│   ├── gmail-reminders.png
-│   ├── asana-tasks.png
+│   ├── sales-follow-ups.png
+│   ├── upcoming-email.png
+│   ├── due-today-email.png
+│   ├── overdue-email.png
+│   ├── missing-date-email.png
+│   ├── asana-task.png
 │   ├── follow-up-logs.png
+│   ├── error-handler-workflow.png
 │   └── error-logs.png
 │
 ├── README.md
